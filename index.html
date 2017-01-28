@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/scriptCal.js"></script>
+</head>
+<body>
+	<div class="painel">
+		<h2 class="font">Pug's Calculator</h2>
+		<div class="area">
+			<input class="input" type="text" id="result" value="0" disabled>
+		</div>
+			
+		<div class="controles">
+			<input class="botao" type="submit" id="r" value="#">
+			<input class="botao" type="submit" id="c" value="c" onclick="limpar();">
+			<input class="botao" type="submit" id="back" value="back" onclick="back();">
+			<input class="botao" type="submit" id="div" value="%" onclick="numeros('%');">
+
+			<input class="botao" type="submit" id="um" value="1" onclick="numeros(1);">
+			<input class="botao" type="submit" id="dois" value="2" onclick="numeros(2);">
+			<input class="botao" type="submit" id="tres" value="3" onclick="numeros(3);">
+			<input class="botao" type="submit" id="mais" value="+" onclick="numeros('+');">
+			<input class="botao" type="submit" id="quatro" value="4" onclick="numeros(4);">
+			<input class="botao" type="submit" id="um" value="5" onclick="numeros(5);">
+			<input class="botao" type="submit" id="um" value="6" onclick="numeros(6);">
+			<input class="botao" type="submit" id="menos" value="-" onclick="numeros('-');">
+			<input class="botao" type="submit" id="um" value="7" onclick="numeros(7);">
+			<input class="botao" type="submit" id="oito" value="8" onclick="numeros(8);">
+			<input class="botao" type="submit" id="um" value="9" onclick="numeros(9);">
+			<input class="botao" type="submit" id="vezes" value="x" onclick="numeros('x');">
+			<input class="botao" type="submit" id="zero" value="0" onclick="numeros(0);">
+			<input class="botao" type="submit" id="virgula" value="," onclick="numeros('.');">
+			
+
+			<input class="botaoIgual" type="submit" id="igual" value="=" onclick="igual();">
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+.painel {
+	height: 450px;
+	width: 300px;
+	background-color: #CCCCCC;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px; 
+}
+
+.area {
+	height: 100px;
+	width: 280px;
+	margin: 10px 20px 10px 10px;
+	background-color: white;
+	border: 1px solid;
+	border-radius: 5px;
+	box-shadow: 5px 5px 3px #DCDCDC;
+}
+
+.controles {
+	margin-top: 10px;
+	height: 390px;
+}
+
+.botao {
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+
+}
+
+.botaoIgual {
+	height: 50px;
+	width: 125px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.input {
+	border: none;
+	background-color: white;
+	margin-top: 70px;
+	margin-left: 35px;
+	text-align: right;
+	font-size: 20px;
+}
+.font {
+	text-align: center;
+}
